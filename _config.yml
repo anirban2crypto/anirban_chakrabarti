@@ -1,0 +1,22 @@
+# _config.yml
+
+title: "Anirban Chakrabarti"
+description: "PhD in Computer Science | Cryptography | Secure Systems"
+baseurl: "" # Leave blank unless you're serving from a subdirectory
+url: "https://anirban2crypto.github.io" # Your GitHub Pages URL
+
+theme: minima
+markdown: kramdown
+
+# Enable GitHub Pages plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional (if you're using _data/cv.yml and looping through it)
+defaults:
+  - scope:
+      path: ""
+      type: "data"
+    values:
+      layout: default
