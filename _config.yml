@@ -1,33 +1,28 @@
 title: "Anirban Chakrabarti"
-#description: >-
-#  Personal webpage highlighting research, education, and professional activities.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://anirban2crypto.github.io/anirban_chakrabarti/" # replace with your GitHub Pages URL
+description: "Personal webpage highlighting research, education, and professional activities."
+baseurl: ""
+url: "https://anirban2crypto.github.io/anirban_chakrabarti/"
 
 theme: minima
 
-# Optional settings
 author: "Anirban Chakrabarti"
-email: your.email@example.com
+email: anirban@example.com
 
-# Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Social links (optional)
 github_username: anirbanchakrabarti
 linkedin_username: anirbanchakrabarti
-scholar: https://scholar.google.com/citations?user=XXXXXX
+scholar: https://scholar.google.com/citations?user=abcdefg1234
 
-# Exclude these files from build
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  
+
 minima:
   skin: classic
-  include_css: ["assets/css/style.css"]
-  
+  include_css:
+    - assets/css/style.css
