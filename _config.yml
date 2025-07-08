@@ -1,8 +1,8 @@
 title: "Anirban Chakrabarti"
-description: >-
-  Personal webpage highlighting research, education, and professional activities.
+#description: >-
+#  Personal webpage highlighting research, education, and professional activities.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://anirbanchakrabarti.github.io" # replace with your GitHub Pages URL
+url: "https://anirban2crypto.github.io/anirban_chakrabarti/" # replace with your GitHub Pages URL
 
 theme: minima
 
