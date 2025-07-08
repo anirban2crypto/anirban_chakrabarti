@@ -1,7 +1,8 @@
 title: "Anirban Chakrabarti"
 description: "Personal webpage highlighting research, education, and professional activities."
-baseurl: ""
-url: "https://anirban2crypto.github.io/anirban_chakrabarti/"
+baseurl: "/anirban_chakrabarti"
+url: "https://anirban2crypto.github.io"
+
 
 theme: minima
 
