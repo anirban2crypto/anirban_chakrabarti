@@ -1,22 +1,21 @@
 title: "Anirban Chakrabarti"
-description: "Personal webpage highlighting research, education, and professional activities."
+description: ""
 baseurl: "/anirban_chakrabarti"
 url: "https://anirban2crypto.github.io"
 
-
 theme: minima
 
-author: "Anirban Chakrabarti"
-email: anirban@example.com
+author: ""
+email: anirban2chakrabarti@gmail.com
 
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-github_username: anirbanchakrabarti
-linkedin_username: anirbanchakrabarti
-scholar: https://scholar.google.com/citations?user=abcdefg1234
+github_username: anirban2crypto
+linkedin_username: anirban-chakrabarti-346bba28
+scholar: https://scholar.google.com/citations?user=Hj7fF9QAAAAJ
 
 exclude:
   - README.md
@@ -27,3 +26,10 @@ minima:
   skin: classic
   include_css:
     - assets/css/style.css
+
+defaults:
+  - scope:
+      path: ""
+      ext: "md"
+    values:
+      layout: default
