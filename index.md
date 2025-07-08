@@ -5,7 +5,7 @@ title: "Anirban Chakrabarti"
 
 # Anirban Chakrabarti
 
-![Profile Photo](/assets/profile.png){: style="width: 150px; border-radius: 50%; margin-bottom: 1em;" }
+![Profile Photo]({{ '/assets/profile.png' | relative_url }}){: style="width: 150px; border-radius: 50%; margin-bottom: 1em;" }
 
 PhD Student | Cryptography 
 Indian Institute of Science, Bengaluru
