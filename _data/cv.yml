@@ -1,0 +1,16 @@
+education:
+  - degree: PhD in Computer Science
+    institution: Indian Institute of Science
+    duration: 2019 – Present
+    details: Thesis under submission: "Enhancing Privacy and Efficiency of Distributed Encryption"
+
+research:
+  - title: Threshold Traitor Tracing
+    description: Designed scheme for encrypted mempools and sealed-bid auctions
+    status: Accepted at ACM CCS 2025
+
+experience:
+  - role: Product Specialist ‐Technical
+    company: Cognizant Technology Solutions
+    duration: 2012 – 2018
+    details: Led platform migration and production support for insurance clients
