@@ -19,11 +19,11 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
   </div>
 </section>
 
-<section id="research" class="content-section">
+<section id="research" class="content-section" markdown="1">
 
 ## Research
 
-<div class="research-card">
+<div class="research-card" markdown="1">
 
 ### Silent Threshold Traitor Tracing & Enhancing Mempool Privacy
 **Authors:** A. Chakrabarti, M. Maitra, A. Mondal, K. Sehgal
@@ -36,7 +36,7 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 
 </div>
 
-<div class="research-card">
+<div class="research-card" markdown="1">
 
 ### Secure Fuzzy Deduplication: Definitions and Constructions
 **Authors:** A. Chakrabarti, S. Gupta, B. Kanukurthi, G. Shankar
@@ -49,7 +49,7 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 
 </div>
 
-<div class="research-card">
+<div class="research-card" markdown="1">
 
 ### Post-Quantum Secure MPSI Protocol
 
@@ -61,7 +61,7 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 
 </div>
 
-<div class="research-card">
+<div class="research-card" markdown="1">
 
 ### Registered Functional Signature
 
@@ -73,11 +73,11 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 
 </section>
 
-<section id="education" class="content-section">
+<section id="education" class="content-section" markdown="1">
 
 ## Education
 
-<div class="education-block">
+<div class="education-block" markdown="1">
 
 ### PhD in Computer Science
 **Indian Institute of Science, Bengaluru** | *August 2019 -- Present*<br>
@@ -93,7 +93,7 @@ Advised by <a href="https://www.csa.iisc.ac.in/~bhavana/" target="_blank" rel="n
 
 </div>
 
-<div class="education-block">
+<div class="education-block" markdown="1">
 
 ### Internship -- Technical University of Darmstadt, Germany
 *May 2024 -- October 2024*<br>
@@ -104,14 +104,14 @@ Hosted by <a href="https://www.informatik.tu-darmstadt.de/cac/cac/team_cac/sebas
 
 </div>
 
-<div class="education-block">
+<div class="education-block" markdown="1">
 
 ### B.Tech in Information Technology
 **MCKV Institute of Engineering** | *2007 -- 2011*
 
 </div>
 
-<div class="highlight-box">
+<div class="highlight-box" markdown="1">
 
 **GATE 2019** -- Computer Science and Information Technology<br>
 Score: **774** | All India Rank: **330**
@@ -120,11 +120,11 @@ Score: **774** | All India Rank: **330**
 
 </section>
 
-<section id="experience" class="content-section">
+<section id="experience" class="content-section" markdown="1">
 
 ## Professional Experience
 
-<div class="experience-block">
+<div class="experience-block" markdown="1">
 
 ### Cognizant Technology Solutions
 **April 2012 -- August 2018** | *Product Specialist -- Technical*
@@ -187,7 +187,7 @@ Score: **774** | All India Rank: **330**
 
 </div>
 
-<div class="highlight-box">
+<div class="highlight-box" markdown="1">
 
 **Recognition -- September 2017**<br>
 Received official commendation from the Senior Systems Manager, Director, and AVP at Manulife for exemplary technical support, problem-solving, and outstanding collaboration with IT and business analysis teams.
