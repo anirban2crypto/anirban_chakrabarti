@@ -17,6 +17,8 @@ github_username: anirban2crypto
 linkedin_username: anirban-chakrabarti-346bba28
 scholar: https://scholar.google.com/citations?user=Hj7fF9QAAAAJ
 
+header_pages: []
+
 exclude:
   - README.md
   - Gemfile
