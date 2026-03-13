@@ -1,34 +1,386 @@
+/* === Academic Style === */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 body {
-  font-family: "Helvetica Neue", sans-serif;
-  line-height: 1.7;
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 0 1em;
-  color: #2c3e50;
-  background: #fdfdfd;
+  font-family: "Georgia", "Times New Roman", "Palatino Linotype", serif;
+  line-height: 1.8;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  color: #333;
+  background: #fff;
+  font-size: 16px;
 }
 
-h1, h2, h3 {
-  color: #34495e;
-  margin-top: 1.5em;
+/* === Typography === */
+h1, h2, h3, h4 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  color: #222;
 }
 
-img {
-  display: block;
-  margin: 1em auto;
-  border-radius: 50%;
-  max-width: 150px;
-  height: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+h2 {
+  font-size: 1.5em;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.25em;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  color: #111;
+}
+
+h3 {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  color: #222;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0.8em 0 0.2em;
+  color: #333;
+}
+
+p {
+  margin: 0.5em 0;
 }
 
 a {
-  color: #2a7ae2;
+  color: #1a5276;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #1a5276;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* === Header overrides === */
+.site-header {
+  border-top: 3px solid #1a5276;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.site-title,
+.site-title:visited {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  color: #111;
+}
+
+.page-link {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 0.95em;
+  color: #555;
+  letter-spacing: 0.02em;
+}
+
+.page-link:hover {
+  color: #1a5276;
+}
+
+/* === Profile / Hero === */
+.hero-section {
+  padding: 2.5em 0 1.5em;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.profile-image-wrapper {
+  flex: 0 0 auto;
+}
+
+.profile-img {
+  display: block;
+  border-radius: 4px;
+  width: 170px;
+  height: auto;
+  max-width: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin: 0;
+}
+
+img:not(.profile-img) {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.profile-info {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.profile-name {
+  font-size: 1.8em;
+  margin: 0 0 0.1em;
+  color: #111;
+  border-bottom: none;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.profile-tagline {
+  font-size: 1em;
+  color: #444;
+  line-height: 1.7;
+}
+
+.profile-tagline strong {
+  color: #222;
+}
+
+.profile-summary {
+  font-size: 0.95em;
+  color: #444;
+  line-height: 1.7;
+  margin-top: 0.6em;
+}
+
+/* === Sections === */
+.content-section {
+  padding: 2em 0 1em;
+  border-top: 1px solid #ddd;
+}
+
+/* === Publications / Research === */
+.research-card {
+  background: transparent;
+  border-left: 3px solid #1a5276;
+  border-radius: 0;
+  padding: 0.8em 0 0.8em 1.2em;
+  margin: 1.2em 0;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  color: #111;
+  font-size: 1.05em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.research-card ul {
+  margin: 0.4em 0;
+  padding-left: 1.2em;
+  font-size: 0.95em;
+}
+
+.research-card li {
+  margin-bottom: 0.2em;
+  color: #444;
+}
+
+.status {
+  display: inline-block;
+  font-size: 0.88em;
+  font-weight: bold;
+  margin-top: 0.4em;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+}
+
+.status.accepted {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+.status.prep {
+  background: #fff8e1;
+  color: #f57f17;
+  border: 1px solid #fff0b3;
+}
+
+/* === Education === */
+.education-block {
+  background: transparent;
+  border-radius: 0;
+  padding: 0.6em 0 0.6em 1.2em;
+  margin: 1em 0;
+  border-left: 3px solid #1a5276;
+}
+
+.education-block h3 {
+  margin-top: 0;
+  color: #111;
+}
+
+.education-block ul {
+  padding-left: 1.2em;
+  font-size: 0.95em;
+}
+
+.education-block li {
+  color: #444;
+  margin-bottom: 0.2em;
+}
+
+/* === Experience === */
+.experience-block {
+  margin: 1em 0;
+}
+
+.experience-block h3 {
+  margin-top: 0;
+  color: #111;
+}
+
+.project-item {
+  background: transparent;
+  border-radius: 0;
+  padding: 0.6em 0 0.6em 1.2em;
+  margin: 0.8em 0;
+  border-left: 2px solid #bbb;
+}
+
+.project-item h4 {
+  margin: 0 0 0.2em;
+  color: #222;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+.project-item p {
+  margin: 0 0 0.4em;
+  font-size: 0.88em;
+  color: #666;
+}
+
+.project-item ul {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 0.93em;
+}
+
+.project-item li {
+  margin-bottom: 0.2em;
+  color: #444;
+}
+
+/* === Skills === */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin: 1.2em 0;
+}
+
+.skill-category h4 {
+  margin: 0 0 0.4em;
+  color: #222;
+  font-size: 0.92em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: #f5f5f5;
+  color: #333;
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  margin: 0.15em 0.2em 0.15em 0;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  border: 1px solid #ddd;
+}
+
+/* === Highlight Box === */
+.highlight-box {
+  background: #fafafa;
+  border-left: 3px solid #1a5276;
+  border-radius: 0;
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+  font-size: 0.95em;
+}
+
+/* === Service List === */
+.service-list {
+  padding-left: 0;
+}
+
+.service-list ul {
+  padding-left: 1.2em;
+  font-size: 0.95em;
+}
+
+.service-list li {
+  color: #444;
+  margin-bottom: 0.2em;
+}
+
+/* === Social Links === */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0.8em 0 0;
+  display: flex;
+  gap: 0.8em;
+}
+
+.social-links li {
+  margin: 0;
+}
+
+.social-links li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #555;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-bottom: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.social-links li a:hover {
+  background: #1a5276;
+  color: #fff;
+  border-bottom: none;
+}
+
+/* === Footer overrides === */
+.site-footer {
+  border-top: 1px solid #ddd;
+  background: #fafafa;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.footer-heading {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #555;
 }
 
 footer {
@@ -40,28 +392,38 @@ footer {
   padding-top: 1em;
 }
 
-
-
-.social-links {
-  list-style: none;          /* Remove bullets */
-  padding: 0;                /* Remove default padding */
-  margin: 0;                 /* Remove default margin */
-  display: flex;             /* Arrange items in a row */
-  gap: 1em;                  /* Space between icons */
-  justify-content: center;   /* Center the icons horizontally */
+/* === Email link in contact === */
+.u-email {
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 0.93em;
 }
 
-.social-links li {
-  margin: 0;                 /* Remove default margin on list items */
-}
+/* === Responsive === */
+@media (max-width: 600px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+  }
 
-.social-links li a {
-  color: inherit;            /* Use text color */
-  font-size: 1.5em;          /* Make icons bigger */
-  text-decoration: none;     /* Remove underline */
-  transition: color 0.3s ease;
-}
+  .profile-img {
+    width: 140px;
+  }
 
-.social-links li a:hover {
-  color: #0077b5;            /* Example hover color (LinkedIn blue) */
+  .social-links {
+    justify-content: center;
+  }
+
+  .profile-name {
+    font-size: 1.5em;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
 }

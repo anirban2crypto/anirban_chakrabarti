@@ -1,19 +1,24 @@
 ---
 layout: default
 title: "Anirban Chakrabarti"
-description: "PhD student in cryptography at IISc Bangalore, researching cryptographic protocols, secure cloud storage, and privacy-preserving systems."
+description: "Researcher in applied cryptography, privacy-preserving ML, and blockchain privacy. PhD from IISc Bangalore, currently at Microsoft Research India."
 ---
 
 <section id="about" class="hero-section">
   <div class="profile-container">
     <div class="profile-image-wrapper">
-      <img src="{{ '/assets/profile.png' | relative_url }}" alt="Profile Photo" class="profile-img" />
+      <img src="{{ '/assets/profile.png' | relative_url }}" alt="Anirban Chakrabarti" class="profile-img" />
     </div>
     <div class="profile-info">
       <h1 class="profile-name">Anirban Chakrabarti</h1>
-      <p class="profile-tagline"><strong>PhD Student | Cryptography</strong><br>
-      Indian Institute of Science, Bengaluru<br>
-      Advised by <a href="https://www.csa.iisc.ac.in/~bhavana/" target="_blank" rel="noopener noreferrer">Prof. Bhavana Kanukurthi</a></p>
+      <p class="profile-tagline">
+        Research Intern, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank" rel="noopener noreferrer">Microsoft Research India</a><br>
+        PhD in Computer Science, <a href="https://iisc.ac.in/" target="_blank" rel="noopener noreferrer">Indian Institute of Science</a>, Bengaluru<br>
+        Advisor: <a href="https://www.csa.iisc.ac.in/~bhavana/" target="_blank" rel="noopener noreferrer">Prof. Bhavana Kanukurthi</a>
+      </p>
+      <p class="profile-summary">
+        My research lies at the intersection of applied cryptography, privacy-preserving machine learning, and blockchain privacy. I design and build cryptographic protocols for secure distributed systems, with recent work on zero-knowledge proofs for LLM inference integrity and threshold encryption for mempool privacy.
+      </p>
       {% include social.html %}
     </div>
   </div>
@@ -21,53 +26,72 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 
 <section id="research" class="content-section" markdown="1">
 
-## Research
+## Publications & Preprints
+
+<div class="research-card" markdown="1">
+
+### Traceable Threshold Batch Encryption with Applications to Enhancing Mempool Privacy
+A. Chakrabarti, M. Maitra, A. Mondal
+
+- Developed a traceable threshold batch encryption scheme for enhancing mempool privacy in blockchain systems
+- Designed accountability mechanisms for identifying misbehaving parties in threshold decryption
+- Implemented and benchmarked a prototype in Rust
+
+<span class="status accepted"> ACM ASIACCS 2026</span>
+
+</div>
 
 <div class="research-card" markdown="1">
 
 ### Silent Threshold Traitor Tracing & Enhancing Mempool Privacy
-**Authors:** A. Chakrabarti, M. Maitra, A. Mondal, K. Sehgal
+A. Chakrabarti, M. Maitra, A. Mondal, K. Sehgal
 
-- Developed a threshold traitor tracing scheme for applications such as encrypted mempools, private voting, and sealed-bid auctions
-- Designed accountability mechanisms to identify misbehavior when parties compromise private keys for profit
-- Implemented and benchmarked a prototype using Go
+- Developed a threshold traitor tracing scheme for encrypted mempools, private voting, and sealed-bid auctions
+- Designed accountability mechanisms to identify misbehavior when parties compromise private keys
+- Implemented and benchmarked a prototype in Go
 
-<span class="status accepted">Accepted at <a href="https://www.sigsac.org/ccs/CCS2025/" target="_blank" rel="noopener noreferrer">ACM CCS 2025</a></span>
+<span class="status accepted">ACM CCS 2025, pp. 1769--1783</span>
 
 </div>
 
 <div class="research-card" markdown="1">
 
 ### Secure Fuzzy Deduplication: Definitions and Constructions
-**Authors:** A. Chakrabarti, S. Gupta, B. Kanukurthi, G. Shankar
+A. Chakrabarti, S. Gupta, B. Kanukurthi, G. Shankar
 
-- Created a secure deduplication system that preserves uniqueness in similar files while eliminating redundancy in cloud storage
-- Implemented constructions using C++, Python, and shell scripting
-- Validated performance on real-world datasets, including images and genomic data
+- Proposed a secure deduplication system preserving uniqueness in similar files while eliminating cloud storage redundancy
+- Implemented constructions in C++, Python, and Shell
+- Validated on real-world datasets (images and genomic data)
 
-<span class="status accepted">Accepted at <a href="https://ccsw.io/" target="_blank" rel="noopener noreferrer">ACM CCSW 2025</a></span>
-
-</div>
-
-<div class="research-card" markdown="1">
-
-### Post-Quantum Secure MPSI Protocol
-
-- Designed a multiparty private set intersection (MPSI) protocol resilient to quantum attacks
-- Applied game-theoretic models to analyze rational adversaries
-- Implemented the protocol in C++
-
-<span class="status prep">Manuscript under preparation</span>
+<span class="status accepted">ACM CCSW 2025, pp. 80--94</span>
 
 </div>
 
-<div class="research-card" markdown="1">
+</section>
 
-### Registered Functional Signature
+<section id="experience" class="content-section" markdown="1">
 
-- Designed a functional signature scheme using bilinear pairings with registration-based security guarantees
+## Research Experience
 
-<span class="status prep">Manuscript under preparation</span>
+<div class="experience-block" markdown="1">
+
+### Microsoft Research India
+September 2025 to present -- *Research Intern, Applied Cryptography & Secure AI*
+
+- Investigating zero-knowledge proof systems for verifiable LLM inference
+- Designing cryptographic protocols for privacy-preserving machine learning pipelines
+- Collaborating with MSR researchers on scalable proof systems for AI model integrity
+
+</div>
+
+<div class="experience-block" markdown="1">
+
+### Technical University of Darmstadt, Germany
+May 2024 to October 2024 -- *Research Intern*<br>
+Host: <a href="https://www.informatik.tu-darmstadt.de/cac/cac/team_cac/sebastian_faust_cac/index.en.jsp" target="_blank" rel="noopener noreferrer">Prof. Sebastian Faust</a>
+
+- Designed threshold cryptographic protocols distributing trust among multiple parties
+- Developed a protocol to prevent misuse of Miner Extractable Value (MEV) in DeFi
 
 </div>
 
@@ -80,67 +104,70 @@ description: "PhD student in cryptography at IISc Bangalore, researching cryptog
 <div class="education-block" markdown="1">
 
 ### PhD in Computer Science
-**Indian Institute of Science, Bengaluru** | *August 2019 -- Present*<br>
-Advised by <a href="https://www.csa.iisc.ac.in/~bhavana/" target="_blank" rel="noopener noreferrer">Prof. Bhavana Kanukurthi</a>
+**Indian Institute of Science, Bengaluru** -- August 2019 to November 2025<br>
+Advisor: <a href="https://www.csa.iisc.ac.in/~bhavana/" target="_blank" rel="noopener noreferrer">Prof. Bhavana Kanukurthi</a>
 
-**Thesis (under submission):** Enhancing Privacy and Efficiency of Distributed Encryption
+**Thesis:** *Enhancing Privacy and Efficiency of Distributed Encryption*
 
-**Coursework:** Cryptography, Zero-Knowledge Proof Systems, Design and Analysis of Algorithms, Linear Algebra and Probability, Game Theory, Post-Quantum Cryptography from Lattices, Quantum Cryptography
-
-**Teaching Assistant** -- Theoretical Foundations of Cryptography (Prof. Bhavana Kanukurthi)
-- Prepared homework assignments
-- Assisted students with problem-solving
-
-</div>
-
-<div class="education-block" markdown="1">
-
-### Internship -- Technical University of Darmstadt, Germany
-*May 2024 -- October 2024*<br>
-Hosted by <a href="https://www.informatik.tu-darmstadt.de/cac/cac/team_cac/sebastian_faust_cac/index.en.jsp" target="_blank" rel="noopener noreferrer">Prof. Sebastian Faust</a>
-
-- Designed threshold cryptographic protocols that distribute trust among multiple parties
-- Developed a protocol to prevent misuse of Miner Extractable Value (MEV) in DeFi applications
+**Coursework:** Cryptography; Zero-Knowledge Proof Systems; Design and Analysis of Algorithms; Linear Algebra and Probability; Game Theory; Post-Quantum Cryptography from Lattices; Quantum Cryptography
 
 </div>
 
 <div class="education-block" markdown="1">
 
 ### B.Tech in Information Technology
-**MCKV Institute of Engineering** | *2007 -- 2011*
+**MCKV Institute of Engineering** -- 2007 to 2011
 
 </div>
 
 <div class="highlight-box" markdown="1">
 
-**GATE 2019** -- Computer Science and Information Technology<br>
-Score: **774** | All India Rank: **330**
+**GATE 2019** (Computer Science and Information Technology) -- Score: **774**, All India Rank: **330**
 
 </div>
 
 </section>
 
-<section id="experience" class="content-section" markdown="1">
+<section id="service" class="content-section" markdown="1">
 
-## Professional Experience
+## Professional Service
+
+<div class="service-list" markdown="1">
+
+**Conference Reviewer**
+- ASIACRYPT 2024
+- ACNS 2026
+- CRYPTO 2026
+
+**Teaching Assistant** -- *Theoretical Foundations of Cryptography*, IISc Bengaluru (Prof. Bhavana Kanukurthi)
+- Prepared homework assignments and assisted students with problem-solving
+
+</div>
+
+</section>
+
+<section id="industry" class="content-section" markdown="1">
+
+## Industry Experience
 
 <div class="experience-block" markdown="1">
 
 ### Cognizant Technology Solutions
-**April 2012 -- August 2018** | *Product Specialist -- Technical*
+April 2012 to August 2018 -- *Product Specialist (Technical)*
 
 <div class="project-item">
-<h4>Project 1 -- Production Support, MPFA Application</h4>
-<p><strong>Feb 2016 -- Aug 2018</strong> | Hong Kong | Client: Manulife Hong Kong</p>
+<h4>Production Support, MPFA Application</h4>
+<p>Feb 2016 -- Aug 2018 &middot; Hong Kong &middot; Client: Manulife Hong Kong</p>
 <ul>
-<li>Provided production support for MPFA (Mandatory Provident Fund Schemes) application</li>
-<li>Resolved live system issues in a mission-critical financial environment</li>
+<li>Provided production support for MPFA (Mandatory Provident Fund Schemes) application in a mission-critical financial environment</li>
+<li>Designed and deployed code for business features and change requests; improved system performance through program optimization</li>
+<li>Developed automation tooling (Unix shell script-based JCL equivalent) to streamline batch processing</li>
 </ul>
 </div>
 
 <div class="project-item">
-<h4>Project 2 -- Platform Migration (Mainframe to AIX)</h4>
-<p><strong>Jun 2014 -- Feb 2016</strong> | Kolkata | Client: Manulife Hong Kong</p>
+<h4>Platform Migration (Mainframe to AIX)</h4>
+<p>Jun 2014 -- Feb 2016 &middot; Kolkata &middot; Client: Manulife Hong Kong</p>
 <ul>
 <li>Led platform migration from Mainframe to AIX for MPFA system</li>
 <li>Coordinated with offshore and on-site teams to ensure minimal downtime</li>
@@ -148,15 +175,19 @@ Score: **774** | All India Rank: **330**
 </div>
 
 <div class="project-item">
-<h4>Project 3 -- Platform Migration (Mainframe to Windows Server)</h4>
-<p><strong>Apr 2012 -- Jun 2014</strong> | Kolkata | Client: Manulife John Hancock Investments</p>
+<h4>Platform Migration (Mainframe to Windows Server)</h4>
+<p>Apr 2012 -- Jun 2014 &middot; Kolkata &middot; Client: Manulife John Hancock Investments</p>
 <ul>
-<li>Migrated insurance & annuities platform from Mainframe to Windows Server</li>
-<li>Ensured business continuity and data integrity during transition</li>
+<li>Migrated insurance and annuities platform from Mainframe to Windows Server</li>
+<li>Ensured business continuity, data integrity, and regulatory compliance during transition</li>
 </ul>
 </div>
 
 </div>
+
+</section>
+
+<section id="skills" class="content-section">
 
 <div class="skills-grid">
 
@@ -164,23 +195,24 @@ Score: **774** | All India Rank: **330**
 <h4>Programming</h4>
 <span class="skill-tag">Python</span>
 <span class="skill-tag">C++</span>
+<span class="skill-tag">Rust</span>
+<span class="skill-tag">Go</span>
 <span class="skill-tag">Java</span>
 <span class="skill-tag">Shell</span>
-<span class="skill-tag">Go</span>
-<span class="skill-tag">COBOL</span>
 </div>
 
 <div class="skill-category">
-<h4>Systems & Tools</h4>
+<h4>Research Areas</h4>
+<span class="skill-tag">ZK Proofs</span>
+<span class="skill-tag">Threshold Crypto</span>
+<span class="skill-tag">Blockchain Privacy</span>
+<span class="skill-tag">Privacy-Preserving ML</span>
+</div>
+
+<div class="skill-category">
+<h4>Systems</h4>
 <span class="skill-tag">Unix/Linux</span>
-<span class="skill-tag">AIX</span>
-<span class="skill-tag">Windows Server</span>
-<span class="skill-tag">Mainframe</span>
 <span class="skill-tag">Git</span>
-</div>
-
-<div class="skill-category">
-<h4>Databases</h4>
 <span class="skill-tag">Oracle</span>
 <span class="skill-tag">DB2</span>
 </div>
@@ -189,8 +221,7 @@ Score: **774** | All India Rank: **330**
 
 <div class="highlight-box" markdown="1">
 
-**Recognition -- September 2017**<br>
-Received official commendation from the Senior Systems Manager, Director, and AVP at Manulife for exemplary technical support, problem-solving, and outstanding collaboration with IT and business analysis teams.
+**Recognition (September 2017)** -- Received official commendation from the Senior Systems Manager, Director, and AVP at Manulife for exemplary technical support, problem-solving, and collaboration with IT and business analysis teams.
 
 </div>
 
