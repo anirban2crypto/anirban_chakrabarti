@@ -31,39 +31,42 @@ description: "Researcher in applied cryptography, privacy-preserving ML, and blo
 <div class="research-card" markdown="1">
 
 ### Traceable Threshold Batch Encryption with Applications to Enhancing Mempool Privacy
-A. Chakrabarti, M. Maitra, A. Mondal
+
+**A. Chakrabarti, M. Maitra, A. Mondal**
+
+ACM ASIACCS 2026
 
 - Developed a traceable threshold batch encryption scheme for enhancing mempool privacy in blockchain systems
 - Designed accountability mechanisms for identifying misbehaving parties in threshold decryption
 - Implemented and benchmarked a prototype in Rust
-
-<span class="status accepted"> ACM ASIACCS 2026</span>
 
 </div>
 
 <div class="research-card" markdown="1">
 
 ### Silent Threshold Traitor Tracing & Enhancing Mempool Privacy
-A. Chakrabarti, M. Maitra, A. Mondal, K. Sehgal
+
+**A. Chakrabarti, M. Maitra, A. Mondal, K. Sehgal**
+
+[ACM CCS 2025](https://dl.acm.org/doi/10.1145/3719027.3765099), pp. 1769--1783
 
 - Developed a threshold traitor tracing scheme for encrypted mempools, private voting, and sealed-bid auctions
 - Designed accountability mechanisms to identify misbehavior when parties compromise private keys
 - Implemented and benchmarked a prototype in Go
-
-<span class="status accepted">ACM CCS 2025, pp. 1769--1783</span>
 
 </div>
 
 <div class="research-card" markdown="1">
 
 ### Secure Fuzzy Deduplication: Definitions and Constructions
-A. Chakrabarti, S. Gupta, B. Kanukurthi, G. Shankar
+
+**A. Chakrabarti, S. Gupta, B. Kanukurthi, G. Shankar**
+
+[ACM CCSW 2025](https://dl.acm.org/doi/10.1145/3733812.3765537), pp. 80--94
 
 - Proposed a secure deduplication system preserving uniqueness in similar files while eliminating cloud storage redundancy
 - Implemented constructions in C++, Python, and Shell
 - Validated on real-world datasets (images and genomic data)
-
-<span class="status accepted">ACM CCSW 2025, pp. 80--94</span>
 
 </div>
 

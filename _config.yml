@@ -15,7 +15,7 @@ plugins:
 
 github_username: anirban2crypto
 linkedin_username: anirban-chakrabarti-346bba28
-scholar: https://scholar.google.com/citations?user=Hj7fF9QAAAAJ
+scholar: https://scholar.google.com/citations?user=8z6PG6EAAAAJ&hl=en
 
 header_pages: []
 
@@ -26,6 +26,7 @@ exclude:
 
 include:
   - google6c61f91a11aec1bf.html
+  - favicon.ico
 
 minima:
   skin: classic
