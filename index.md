@@ -26,7 +26,7 @@ description: "Researcher in applied cryptography: threshold cryptography, accoun
         6+ years in industry, Cognizant (2012&ndash;2018) &rarr;
         M.Tech. (Research), IISc (2019), upgraded to PhD (2021) &rarr;
         PhD defended (2025) &rarr;
-        Applied Cryptography &amp; Secure AI, Microsoft Research India (2025&ndash;2026) &rarr;
+        Post-PhD research internship, Microsoft Research India (2025&ndash;2026) &rarr;
         Postdoc, University of Warsaw (2026&ndash;present)
       </p>
       {% include social.html %}
