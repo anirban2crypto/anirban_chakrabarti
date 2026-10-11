@@ -1,0 +1,12 @@
+# Jekyll build output and caches (GitHub Pages rebuilds the site)
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+vendor/
+
+# Local Bundler settings
+.bundle/
+
+# Full-size photo originals (the site uses assets/profile.jpg)
+assets/WhatsApp*

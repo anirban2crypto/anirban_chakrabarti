@@ -1,11 +1,11 @@
 title: "Anirban Chakrabarti"
-description: ""
+description: "Applied cryptography researcher at the University of Warsaw. Research, publications, and notes on PKI, key management, secure software and post-quantum cryptography."
 baseurl: "/anirban_chakrabarti"
 url: "https://anirban2crypto.github.io"
 
 theme: minima
 
-author: ""
+author: "Anirban Chakrabarti"
 email: anirban2chakrabarti@gmail.com
 
 markdown: kramdown
@@ -23,15 +23,12 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 include:
   - google6c61f91a11aec1bf.html
   - favicon.ico
 
-minima:
-  skin: classic
-  include_css:
-    - assets/css/style.css
 
 defaults:
   - scope:

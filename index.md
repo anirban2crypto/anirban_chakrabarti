@@ -7,7 +7,7 @@ description: "Researcher in applied cryptography: threshold cryptography, accoun
 <section id="about" class="hero-section">
   <div class="profile-container">
     <div class="profile-image-wrapper">
-      <img src="{{ '/assets/profile.png' | relative_url }}" alt="Anirban Chakrabarti" class="profile-img" />
+      <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Anirban Chakrabarti" class="profile-img" />
     </div>
     <div class="profile-info">
       <h1 class="profile-name">Anirban Chakrabarti</h1>
@@ -293,9 +293,20 @@ April 2012 to August 2018 -- *Product Specialist (Technical)*
 <div class="skill-category">
 <h4>Systems</h4>
 <span class="skill-tag">Unix/Linux</span>
+<span class="skill-tag">AIX</span>
 <span class="skill-tag">Git</span>
-<span class="skill-tag">Oracle</span>
+<span class="skill-tag">SVN</span>
+</div>
+
+<div class="skill-category">
+<h4>Mainframe &amp; Enterprise</h4>
+<span class="skill-tag">Mainframe</span>
+<span class="skill-tag">COBOL</span>
+<span class="skill-tag">JCL</span>
 <span class="skill-tag">DB2</span>
+<span class="skill-tag">Oracle</span>
+<span class="skill-tag">Control-M</span>
+<span class="skill-tag">Platform Migration</span>
 </div>
 
 </div>

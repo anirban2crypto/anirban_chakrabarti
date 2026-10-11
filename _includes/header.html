@@ -17,11 +17,12 @@
         </label>
 
       <div class="trigger">
-          <a class="page-link" href="#about">About</a>
-          <a class="page-link" href="#research">Publications</a>
-          <a class="page-link" href="#experience">Research</a>
-          <a class="page-link" href="#education">Education</a>
-          <a class="page-link" href="#service">Service</a>
+          <a class="page-link" href="{{ "/" | relative_url }}#about">About</a>
+          <a class="page-link" href="{{ "/" | relative_url }}#research">Publications</a>
+          <a class="page-link" href="{{ "/" | relative_url }}#experience">Research</a>
+          <a class="page-link" href="{{ "/" | relative_url }}#education">Education</a>
+          <a class="page-link" href="{{ "/" | relative_url }}#service">Service</a>
+          <a class="page-link" href="{{ "/blog/" | relative_url }}">Blog</a>
       </div>
     </nav>
     {%- endif -%}
